@@ -1,7 +1,7 @@
 'use strict'
 
 const CACHE = 'presssafe-static-shell-v1'
-const SHELL = ['/index.html', '/offline.html', '/app.css', '/app.js', '/manifest.webmanifest', '/presssafe-mark.svg']
+const SHELL = ['/', '/offline.html', '/app.css', '/app.js', '/manifest.webmanifest', '/presssafe-mark.svg']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)))
@@ -22,7 +22,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return
 
   if (request.mode === 'navigate') {
-    event.respondWith(fetch(request).catch(async () => (await caches.match('/index.html')) || caches.match('/offline.html')))
+    event.respondWith(fetch(request).catch(async () => (await caches.match('/')) || caches.match('/offline.html')))
     return
   }
 
