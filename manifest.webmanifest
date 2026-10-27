@@ -1,0 +1,14 @@
+{
+  "name": "PressSafe Journalist Safety Desk",
+  "short_name": "PressSafe",
+  "description": "A low-bandwidth journalist verification and safety workspace prototype.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f7f2",
+  "theme_color": "#174a3b",
+  "lang": "en",
+  "icons": [
+    { "src": "/presssafe-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
