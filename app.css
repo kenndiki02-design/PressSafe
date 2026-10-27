@@ -205,6 +205,10 @@ dialog::backdrop { background: rgba(14, 35, 29, .5); backdrop-filter: blur(2px);
 .notice-inline { display: flex; align-items: flex-start; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); background: #fafcfa; font-size: 10px; line-height: 1.5; }
 .notice-inline .icon { width: 14px; height: 14px; }
 .filter-select { height: 34px; padding: 0 26px 0 9px; border: 1px solid var(--line); border-radius: 3px; color: var(--ink); background: white; font-size: 10px; }
+.simplified-mode { font-size: 17px; line-height: 1.6; }
+.simplified-mode .nav-link, .simplified-mode .button-primary, .simplified-mode .button-secondary, .simplified-mode .button-quiet, .simplified-mode .sos-button { min-height: 48px; font-size: 14px; }
+.simplified-mode .page-subtitle, .simplified-mode .field label { font-size: 14px; }
+.simplified-mode .data-table td, .simplified-mode .row-main strong, .simplified-mode .safety-copy strong { font-size: 13px; }
 .line-chart { height: 115px; display: flex; align-items: flex-end; gap: 6px; padding: 10px 2px 0; border-bottom: 1px solid var(--line); background: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, #eef2ee 28px); }
 .line-chart span { flex: 1; min-height: 8px; border-radius: 3px 3px 0 0; background: #3b8b6a; opacity: .85; }
 .file-chip { display: inline-flex; align-items: center; gap: 7px; max-width: 100%; margin-top: 8px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); background: #fff; font: 9px 'DM Mono', monospace; overflow-wrap: anywhere; }

@@ -1,7 +1,7 @@
 'use strict'
 
 const CACHE = 'presssafe-static-shell-v1'
-const SHELL = ['/', '/offline.html', '/app.css', '/app.js', '/manifest.webmanifest', '/presssafe-mark.svg']
+const SHELL = ['/', '/login.html', '/register.html', '/offline.html', '/app.css', '/app.js', '/auth.css', '/auth.js', '/manifest.webmanifest', '/presssafe-mark.svg']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)))
