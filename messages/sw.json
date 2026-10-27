@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "PressSafe",
+    "tagline": "Linda uaminifu wa habari na usalama wa mwandishi.",
+    "description": "Jukwaa la dijiti la uthibitishaji na usalama kwa waandishi wa habari"
+  },
+  "nav": {
+    "verify": "Thibitisha",
+    "vault": "Hazina ya Ushahidi",
+    "incidents": "Ripoti Tukio",
+    "training": "Mafunzo",
+    "dashboard": "Dashibodi",
+    "settings": "Mipangilio",
+    "admin": "Paneli ya Msimamizi",
+    "analyst": "Uchanganuzi",
+    "queue": "Foleni ya Ukaguzi",
+    "signOut": "Toka"
+  },
+  "auth": {
+    "signIn": "Ingia",
+    "signUp": "Fungua Akaunti",
+    "email": "Anwani ya Barua Pepe",
+    "password": "Nywila",
+    "confirmPassword": "Thibitisha Nywila",
+    "name": "Jina Kamili",
+    "phone": "Nambari ya Simu (si lazima)",
+    "forgotPassword": "Umesahau nywila?",
+    "noAccount": "Huna akaunti?",
+    "hasAccount": "Una akaunti tayari?",
+    "verifyEmail": "Thibitisha barua pepe yako",
+    "verifyEmailDesc": "Tumepeleka kiungo cha uthibitisho kwenye barua pepe yako.",
+    "twoFactor": "Uthibitishaji wa Hatua Mbili",
+    "twoFactorDesc": "Ingiza nambari ya tarakimu 6 kutoka kwa programu yako ya uthibitishaji.",
+    "setupTwoFactor": "Sanidi 2FA",
+    "totpCode": "Nambari ya Uthibitishaji",
+    "recoveryCode": "Tumia nambari ya uokoaji",
+    "role": "Mimi ni",
+    "roles": {
+      "JOURNALIST": "Mwandishi wa Habari",
+      "EDITOR": "Mhariri",
+      "FACT_CHECKER": "Mkaguzi wa Ukweli",
+      "ANALYST": "Mchambuzi wa Vyombo",
+      "ADMIN": "Msimamizi"
+    },
+    "errors": {
+      "invalidCredentials": "Barua pepe au nywila si sahihi.",
+      "emailTaken": "Barua pepe hii tayari imesajiliwa.",
+      "weakPassword": "Nywila lazima iwe na angalau herufi 8.",
+      "passwordMismatch": "Nywila hazifanani.",
+      "emailRequired": "Barua pepe inahitajika.",
+      "nameRequired": "Jina kamili linahitajika."
+    }
+  },
+  "consent": {
+    "title": "Notisi ya Faragha na Idhini",
+    "subtitle": "Sheria ya Ulinzi wa Data ya Kenya, 2019",
+    "intro": "PressSafe imejitolea kulinda data yako ya kibinafsi kwa mujibu wa Sheria ya Ulinzi wa Data ya Kenya, 2019. Tafadhali soma yafuatayo kwa makini kabla ya kuendelea.",
+    "dataCollected": "Data Tunayokusanya",
+    "dataCollectedDesc": "Tunakusanya jina lako, barua pepe, na hiari nambari ya simu ili kutoa huduma zetu. Ushahidi na ripoti za matukio unazowasilisha unasimbwa kwa njia ya ficho na kuhifadhiwa kwa usalama.",
+    "dataPurpose": "Jinsi Tunavyotumia Data Yako",
+    "dataPurposeDesc": "Data yako inatumika pekee kutoa huduma za uthibitishaji, hazina ya ushahidi, na kuripoti usalama. Hatuuzi wala kushiriki data yako ya kibinafsi na watu wengine bila idhini yako ya wazi.",
+    "dataRetention": "Uhifadhi wa Data",
+    "dataRetentionDesc": "Unaweza kuomba kufutwa kwa akaunti yako na data wakati wowote. Tutashughulikia maombi ya kufutwa ndani ya siku 30.",
+    "yourRights": "Haki Zako",
+    "yourRightsDesc": "Una haki ya kufikia, kurekebisha, na kufuta data yako ya kibinafsi. Wasiliana nasi kwa privacy@presssafe.io.",
+    "checkboxLabel": "Nimesoma na nakubaliana na Notisi ya Faragha ya PressSafe na nakubali usindikaji wa data yangu ya kibinafsi kama inavyoelezwa.",
+    "proceed": "Endelea kwa PressSafe",
+    "required": "Lazima ukubaliane ili kuendelea."
+  },
+  "dashboard": {
+    "welcome": "Karibu tena, {name}",
+    "subtitle": "Nafasi yako salama ya uthibitishaji na usalama wa uwanjani.",
+    "stats": {
+      "verifications": "Uthibitisho",
+      "evidence": "Vipande vya Ushahidi",
+      "incidents": "Matukio",
+      "openReviews": "Ukaguzi Wazi"
+    },
+    "cards": {
+      "verify": {
+        "title": "Thibitisha Dai",
+        "desc": "Angalia ukweli, picha, video, na hati kabla ya kuchapisha."
+      },
+      "vault": {
+        "title": "Hazina ya Ushahidi",
+        "desc": "Hifadhi na linda ushahidi kwa kumbukumbu za uangalizi zisizobadilika."
+      },
+      "incident": {
+        "title": "Ripoti Tukio",
+        "desc": "Andika vitisho, unyanyasaji, kukamatwa, au mashambulizi uwanjani."
+      }
+    },
+    "recentActivity": "Shughuli za Hivi Karibuni",
+    "noActivity": "Hakuna shughuli za hivi karibuni."
+  },
+  "sos": {
+    "button": "SOS",
+    "title": "Tuma Tahadhari ya Dharura",
+    "desc": "Hii itawaarifu mara moja anwani zako za kuaminiwa na mhariri wa chumba cha habari na mahali pako pa sasa.",
+    "confirm": "Tuma Tahadhari ya SOS",
+    "cancel": "Ghairi",
+    "sent": "Tahadhari ya SOS imetumwa. Kaa salama.",
+    "checkin": "Thibitisha Usalama",
+    "checkinDesc": "Thibitisha uko salama ili kuanzisha upya kaunti ya kujisajili."
+  },
+  "common": {
+    "loading": "Inapakia…",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "view": "Angalia",
+    "back": "Rudi",
+    "next": "Ijayo",
+    "submit": "Wasilisha",
+    "search": "Tafuta",
+    "filter": "Chuja",
+    "export": "Hamisha",
+    "upload": "Pakia",
+    "download": "Pakua",
+    "close": "Funga",
+    "confirm": "Thibitisha",
+    "error": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "success": "Imefanikiwa!",
+    "offline": "Uko nje ya mtandao. Mabadiliko yatasawazishwa utakapounganika tena.",
+    "comingSoon": "Inakuja hivi karibuni"
+  },
+  "status": {
+    "VERIFIED": "Imethibitishwa",
+    "REQUIRES_FURTHER_REVIEW": "Inahitaji Ukaguzi Zaidi",
+    "UNVERIFIED": "Haijathibitishwa",
+    "PENDING": "Inasubiri",
+    "IN_PROGRESS": "Inaendelea"
+  },
+  "footer": {
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Huduma",
+    "ethics": "Maadili na Mipaka",
+    "contact": "Wasiliana",
+    "mck": "Mshirika wa Baraza la Vyombo vya Habari Kenya",
+    "copyright": "© 2025 PressSafe. Haki zote zimehifadhiwa."
+  }
+}

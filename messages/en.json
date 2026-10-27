@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "PressSafe",
+    "tagline": "Protect the integrity of the story and the safety of the storyteller.",
+    "description": "Digital verification and safety platform for journalists"
+  },
+  "nav": {
+    "verify": "Verify",
+    "vault": "Evidence Vault",
+    "incidents": "Report Incident",
+    "training": "Training",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "admin": "Admin Panel",
+    "analyst": "Analytics",
+    "queue": "Review Queue",
+    "signOut": "Sign Out"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "phone": "Phone Number (optional)",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "verifyEmail": "Verify your email",
+    "verifyEmailDesc": "We've sent a verification link to your email address.",
+    "twoFactor": "Two-Factor Authentication",
+    "twoFactorDesc": "Enter the 6-digit code from your authenticator app.",
+    "setupTwoFactor": "Set up 2FA",
+    "totpCode": "Authenticator Code",
+    "recoveryCode": "Use recovery code",
+    "role": "I am a",
+    "roles": {
+      "JOURNALIST": "Journalist",
+      "EDITOR": "Editor",
+      "FACT_CHECKER": "Fact Checker",
+      "ANALYST": "Media Analyst",
+      "ADMIN": "Administrator"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password.",
+      "emailTaken": "This email is already registered.",
+      "weakPassword": "Password must be at least 8 characters.",
+      "passwordMismatch": "Passwords do not match.",
+      "emailRequired": "Email is required.",
+      "nameRequired": "Full name is required."
+    }
+  },
+  "consent": {
+    "title": "Privacy Notice & Consent",
+    "subtitle": "Kenya Data Protection Act, 2019",
+    "intro": "PressSafe is committed to protecting your personal data in compliance with the Kenya Data Protection Act, 2019. Please read the following carefully before proceeding.",
+    "dataCollected": "Data We Collect",
+    "dataCollectedDesc": "We collect your name, email, and optionally your phone number to provide our services. Evidence and incident reports you submit are encrypted and stored securely.",
+    "dataPurpose": "How We Use Your Data",
+    "dataPurposeDesc": "Your data is used solely to provide verification, evidence vault, and safety reporting services. We do not sell or share your personal data with third parties without your explicit consent.",
+    "dataRetention": "Data Retention",
+    "dataRetentionDesc": "You may request deletion of your account and data at any time. We will process deletion requests within 30 days.",
+    "yourRights": "Your Rights",
+    "yourRightsDesc": "You have the right to access, correct, and delete your personal data. Contact us at privacy@presssafe.io.",
+    "checkboxLabel": "I have read and agree to the PressSafe Privacy Notice and consent to the processing of my personal data as described.",
+    "proceed": "Continue to PressSafe",
+    "required": "You must consent to continue."
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}",
+    "subtitle": "Your secure workspace for verification and field safety.",
+    "stats": {
+      "verifications": "Verifications",
+      "evidence": "Evidence Items",
+      "incidents": "Incidents",
+      "openReviews": "Open Reviews"
+    },
+    "cards": {
+      "verify": {
+        "title": "Verify a Claim",
+        "desc": "Check facts, images, videos, and documents before publication."
+      },
+      "vault": {
+        "title": "Evidence Vault",
+        "desc": "Securely store and preserve evidence with tamper-evident custody logs."
+      },
+      "incident": {
+        "title": "Report Incident",
+        "desc": "Document threats, harassment, arrests, or attacks in the field."
+      }
+    },
+    "recentActivity": "Recent Activity",
+    "noActivity": "No recent activity."
+  },
+  "sos": {
+    "button": "SOS",
+    "title": "Send Emergency Alert",
+    "desc": "This will immediately notify your trusted contacts and newsroom editor with your current location.",
+    "confirm": "Send SOS Alert",
+    "cancel": "Cancel",
+    "sent": "SOS alert sent. Stay safe.",
+    "checkin": "Check In",
+    "checkinDesc": "Confirm you are safe to reset your check-in timer."
+  },
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "upload": "Upload",
+    "download": "Download",
+    "close": "Close",
+    "confirm": "Confirm",
+    "error": "An error occurred. Please try again.",
+    "success": "Done!",
+    "offline": "You are offline. Changes will sync when you reconnect.",
+    "comingSoon": "Coming soon"
+  },
+  "status": {
+    "VERIFIED": "Verified",
+    "REQUIRES_FURTHER_REVIEW": "Requires Further Review",
+    "UNVERIFIED": "Unverified",
+    "PENDING": "Pending",
+    "IN_PROGRESS": "In Progress"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "ethics": "Ethics & Limitations",
+    "contact": "Contact",
+    "mck": "Media Council of Kenya Partner",
+    "copyright": "© 2025 PressSafe. All rights reserved."
+  }
+}
